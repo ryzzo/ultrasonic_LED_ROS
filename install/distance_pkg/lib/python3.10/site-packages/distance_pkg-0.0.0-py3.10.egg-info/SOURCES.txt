@@ -11,6 +11,7 @@ setup.py
 distance_pkg/__init__.py
 distance_pkg/distance_publisher.py
 distance_pkg/distance_subscriber.py
+distance_pkg/led_controller.py
 resource/distance_pkg
 test/test_copyright.py
 test/test_flake8.py

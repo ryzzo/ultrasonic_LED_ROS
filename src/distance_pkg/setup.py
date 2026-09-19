@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'distance_publisher = distance_pkg.distance_publisher:main',
-            'distance_subscriber = distance_pkg.distance_subscriber:main'
+            'distance_subscriber = distance_pkg.distance_subscriber:main',
+            'led_controller = distance_pkg.led_controller:main'
         ],
     },
 )
