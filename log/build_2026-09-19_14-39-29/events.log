@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001804] (distance_pkg) JobQueued: {'identifier': 'distance_pkg', 'dependencies': OrderedDict()}
+[0.002336] (distance_pkg) JobStarted: {'identifier': 'distance_pkg'}
+[0.098534] (-) TimerEvent: {}
+[0.199272] (-) TimerEvent: {}
+[0.299947] (-) TimerEvent: {}
+[0.400649] (-) TimerEvent: {}
+[0.501315] (-) TimerEvent: {}
+[0.601995] (-) TimerEvent: {}
+[0.702676] (-) TimerEvent: {}
+[0.803396] (-) TimerEvent: {}
+[0.904045] (-) TimerEvent: {}
+[1.004699] (-) TimerEvent: {}
+[1.105423] (-) TimerEvent: {}
+[1.207491] (-) TimerEvent: {}
+[1.310120] (-) TimerEvent: {}
+[1.410861] (-) TimerEvent: {}
+[1.511624] (-) TimerEvent: {}
+[1.612453] (-) TimerEvent: {}
+[1.713504] (-) TimerEvent: {}
+[1.814150] (-) TimerEvent: {}
+[1.914789] (-) TimerEvent: {}
+[2.015543] (-) TimerEvent: {}
+[2.116220] (-) TimerEvent: {}
+[2.216963] (-) TimerEvent: {}
+[2.317634] (-) TimerEvent: {}
+[2.418403] (-) TimerEvent: {}
+[2.519247] (-) TimerEvent: {}
+[2.619943] (-) TimerEvent: {}
+[2.720748] (-) TimerEvent: {}
+[2.821617] (-) TimerEvent: {}
+[2.922489] (-) TimerEvent: {}
+[3.023361] (-) TimerEvent: {}
+[3.124240] (-) TimerEvent: {}
+[3.225452] (-) TimerEvent: {}
+[3.267477] (distance_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/distance_pkg', 'build', '--build-base', '/home/ryzzo/ros2_ws/build/distance_pkg/build', 'install', '--record', '/home/ryzzo/ros2_ws/build/distance_pkg/install.log', '--install-scripts', '$base/lib/distance_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ryzzo/ros2_ws/src/distance_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryzzo'), ('SSH_CLIENT', '10.130.123.211 53951 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ryzzo/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ryzzo/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ryzzo'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-217d88b0-d6c3-4966-a3b6-910657c5ac0b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ryzzo/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](ros_venv) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ryzzo/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryzzo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ryzzo/ros_venv/bin:/opt/ros/humble/bin:/home/ryzzo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ryzzo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ryzzo/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(ros_venv)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-027bc86f0e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUAL_ENV', '/home/ryzzo/ros_venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ryzzo/ros2_ws/build/distance_pkg'), ('COPILOT_DEBUG_NONCE', 'a61bea23a36ecd8881cd58ed09273771'), ('SSH_CONNECTION', '10.130.123.211 53951 10.130.123.21 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ryzzo/ros2_ws/build/distance_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[3.327226] (-) TimerEvent: {}
+[3.428288] (-) TimerEvent: {}
+[3.529117] (-) TimerEvent: {}
+[3.629861] (-) TimerEvent: {}
+[3.730565] (-) TimerEvent: {}
+[3.831213] (-) TimerEvent: {}
+[3.931829] (-) TimerEvent: {}
+[4.032481] (-) TimerEvent: {}
+[4.133120] (-) TimerEvent: {}
+[4.233810] (-) TimerEvent: {}
+[4.334612] (-) TimerEvent: {}
+[4.371704] (distance_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.374290] (distance_pkg) StdoutLine: {'line': b'creating ../../build/distance_pkg/distance_pkg.egg-info\n'}
+[4.375154] (distance_pkg) StdoutLine: {'line': b'writing ../../build/distance_pkg/distance_pkg.egg-info/PKG-INFO\n'}
+[4.376475] (distance_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/distance_pkg/distance_pkg.egg-info/dependency_links.txt\n'}
+[4.377226] (distance_pkg) StdoutLine: {'line': b'writing entry points to ../../build/distance_pkg/distance_pkg.egg-info/entry_points.txt\n'}
+[4.377913] (distance_pkg) StdoutLine: {'line': b'writing requirements to ../../build/distance_pkg/distance_pkg.egg-info/requires.txt\n'}
+[4.378603] (distance_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/distance_pkg/distance_pkg.egg-info/top_level.txt\n'}
+[4.379549] (distance_pkg) StdoutLine: {'line': b"writing manifest file '../../build/distance_pkg/distance_pkg.egg-info/SOURCES.txt'\n"}
+[4.387598] (distance_pkg) StdoutLine: {'line': b"reading manifest file '../../build/distance_pkg/distance_pkg.egg-info/SOURCES.txt'\n"}
+[4.391157] (distance_pkg) StdoutLine: {'line': b"writing manifest file '../../build/distance_pkg/distance_pkg.egg-info/SOURCES.txt'\n"}
+[4.391888] (distance_pkg) StdoutLine: {'line': b'running build\n'}
+[4.392414] (distance_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.392919] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/build/distance_pkg/build\n'}
+[4.393634] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/build/distance_pkg/build/lib\n'}
+[4.394308] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg\n'}
+[4.394891] (distance_pkg) StdoutLine: {'line': b'copying distance_pkg/__init__.py -> /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg\n'}
+[4.395474] (distance_pkg) StdoutLine: {'line': b'copying distance_pkg/distance_subscriber.py -> /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg\n'}
+[4.396021] (distance_pkg) StdoutLine: {'line': b'copying distance_pkg/distance_publisher.py -> /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg\n'}
+[4.397090] (distance_pkg) StdoutLine: {'line': b'running install\n'}
+[4.398483] (distance_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.401808] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg\n'}
+[4.402625] (distance_pkg) StdoutLine: {'line': b'copying /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg/__init__.py -> /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg\n'}
+[4.403383] (distance_pkg) StdoutLine: {'line': b'copying /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg/distance_subscriber.py -> /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg\n'}
+[4.404441] (distance_pkg) StdoutLine: {'line': b'copying /home/ryzzo/ros2_ws/build/distance_pkg/build/lib/distance_pkg/distance_publisher.py -> /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg\n'}
+[4.407290] (distance_pkg) StdoutLine: {'line': b'byte-compiling /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[4.408808] (distance_pkg) StdoutLine: {'line': b'byte-compiling /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg/distance_subscriber.py to distance_subscriber.cpython-310.pyc\n'}
+[4.410965] (distance_pkg) StdoutLine: {'line': b'byte-compiling /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg/distance_publisher.py to distance_publisher.cpython-310.pyc\n'}
+[4.414048] (distance_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.414699] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/install/distance_pkg/share/ament_index\n'}
+[4.415358] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/install/distance_pkg/share/ament_index/resource_index\n'}
+[4.415882] (distance_pkg) StdoutLine: {'line': b'creating /home/ryzzo/ros2_ws/install/distance_pkg/share/ament_index/resource_index/packages\n'}
+[4.416265] (distance_pkg) StdoutLine: {'line': b'copying resource/distance_pkg -> /home/ryzzo/ros2_ws/install/distance_pkg/share/ament_index/resource_index/packages\n'}
+[4.416783] (distance_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ryzzo/ros2_ws/install/distance_pkg/share/distance_pkg\n'}
+[4.417266] (distance_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.424873] (distance_pkg) StdoutLine: {'line': b'Copying ../../build/distance_pkg/distance_pkg.egg-info to /home/ryzzo/ros2_ws/install/distance_pkg/lib/python3.10/site-packages/distance_pkg-0.0.0-py3.10.egg-info\n'}
+[4.430745] (distance_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.434748] (-) TimerEvent: {}
+[4.524895] (distance_pkg) StdoutLine: {'line': b'Installing distance_publisher script to /home/ryzzo/ros2_ws/install/distance_pkg/lib/distance_pkg\n'}
+[4.525841] (distance_pkg) StdoutLine: {'line': b'Installing distance_subscriber script to /home/ryzzo/ros2_ws/install/distance_pkg/lib/distance_pkg\n'}
+[4.527637] (distance_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ryzzo/ros2_ws/build/distance_pkg/install.log'\n"}
+[4.535020] (-) TimerEvent: {}
+[4.636210] (-) TimerEvent: {}
+[4.648069] (distance_pkg) CommandEnded: {'returncode': 0}
+[4.703410] (distance_pkg) JobEnded: {'identifier': 'distance_pkg', 'rc': 0}
+[4.706337] (-) EventReactorShutdown: {}
